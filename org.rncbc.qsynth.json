@@ -5,8 +5,6 @@
   "sdk": "org.kde.Sdk",
   "command": "qsynth",
   "rename-icon": "qsynth",
-  "rename-desktop-file": "qsynth.desktop",
-  "rename-appdata-file": "qsynth.appdata.xml",
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc",
@@ -40,12 +38,8 @@
       "sources": [
         {
           "type":   "archive",
-          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.4/qsynth-0.9.4.tar.gz",
-          "sha256": "76580890c75eeeebf852530a10f86d67b31f49305ced1bc7b3e436ca4f86fc93"
-        },
-        {
-          "type": "patch",
-          "path": "appdata.patch"
+          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.5/qsynth-0.9.5.tar.gz",
+          "sha256": "e44292d01a775d88a5f2ea882534ad1dd6ce6ea534ee55a375fa7b0b721c3e42"
         }
       ]
     }
