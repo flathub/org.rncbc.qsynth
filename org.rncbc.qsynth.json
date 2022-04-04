@@ -4,11 +4,11 @@
   "runtime-version": "6.2",
   "sdk": "org.kde.Sdk",
   "command": "qsynth",
-  "rename-icon": "qsynth",
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc",
-    "--socket=x11",
+    "--socket=wayland",
+    "--socket=fallback-x11",
     /* Note playback */
     "--socket=pulseaudio",
     /* MIDI */
@@ -35,11 +35,12 @@
     {
       "name": "qsynth",
       "buildsystem": "cmake-ninja",
+	  "config-opts": [ "-DCONFIG_WAYLAND=ON" ],
       "sources": [
         {
           "type":   "archive",
-          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.6/qsynth-0.9.6.tar.gz",
-          "sha256": "431843099594cc2e861392133ec77011a9d82214c64d5214593935acfbe77f26"
+          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.7/qsynth-0.9.7.tar.gz",
+          "sha256": "0e0d78c26cdd924c774359f306692a9a59f107ebab8b41aa6803b15479207030"
         }
       ]
     }
