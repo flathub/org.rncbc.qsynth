@@ -28,7 +28,6 @@
     "*.la"
   ],
   "modules": [
-    "shared-modules/linux-audio/jack2.json",
     "shared-modules/linux-audio/libinstpatch.json",
     "shared-modules/linux-audio/fluidsynth2.json",
     {
