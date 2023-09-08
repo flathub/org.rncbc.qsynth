@@ -28,7 +28,6 @@
     "*.la"
   ],
   "modules": [
-    "shared-modules/linux-audio/jack2.json",
     "shared-modules/linux-audio/libinstpatch.json",
     "shared-modules/linux-audio/fluidsynth2.json",
     {
@@ -38,8 +37,8 @@
       "sources": [
         {
           "type":   "archive",
-          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.11/qsynth-0.9.11.tar.gz",
-          "sha256": "29330dd9ef52b2c6fe578f24f1bd9be88144eaa3bac97c4676d6309142d7ec1b"
+          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.12/qsynth-0.9.12.tar.gz",
+          "sha256": "f901032db28c22f7012b493e4f5a9ce80cd56bb9763481841a3fa06857ed3c60"
         }
       ]
     }
