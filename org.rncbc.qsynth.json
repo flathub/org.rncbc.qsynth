@@ -1,7 +1,7 @@
 {
   "app-id": "org.rncbc.qsynth",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.5",
+  "runtime-version": "6.6",
   "sdk": "org.kde.Sdk",
   "command": "qsynth",
   "finish-args": [
@@ -37,8 +37,8 @@
       "sources": [
         {
           "type":   "archive",
-          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.12/qsynth-0.9.12.tar.gz",
-          "sha256": "f901032db28c22f7012b493e4f5a9ce80cd56bb9763481841a3fa06857ed3c60"
+          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.13/qsynth-0.9.13.tar.gz",
+          "sha256": "4af819add4ba0705a13606e8bdc7e1a5029572ed22c2be1d0ea788724ba8d5f9"
         }
       ]
     }
