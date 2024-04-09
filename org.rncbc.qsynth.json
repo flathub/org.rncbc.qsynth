@@ -37,8 +37,8 @@
       "sources": [
         {
           "type":   "archive",
-          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.13/qsynth-0.9.13.tar.gz",
-          "sha256": "4af819add4ba0705a13606e8bdc7e1a5029572ed22c2be1d0ea788724ba8d5f9"
+          "url":    "https://downloads.sourceforge.net/project/qsynth/qsynth/0.9.90/qsynth-0.9.90.tar.gz",
+          "sha256": "e65aa6a1492ee3ff282b19508a8d6726d32ed649f8da22bc9a2d0adecf72ef43"
         }
       ]
     }
