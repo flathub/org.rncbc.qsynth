@@ -20,7 +20,9 @@
     /* Allow other instances to see lockfiles */
     "--env=TMPDIR=/var/tmp",
     /* On SuSE it seems to be necessary for sound to work */
-    "--env=ALSA_CONFIG_PATH="
+    "--env=ALSA_CONFIG_PATH=",
+    /* Allow KDE Plasma tray icon to work */
+    "--talk-name=org.kde.StatusNotifierWatcher"
   ],
   "cleanup": [
     "/share/man",
