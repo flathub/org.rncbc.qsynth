@@ -35,12 +35,11 @@
     {
       "name": "qsynth",
       "buildsystem": "cmake-ninja",
-      "config-opts": [ "-DCONFIG_WAYLAND=ON" ],
       "sources": [
         {
           "type":   "archive",
-          "url":    "https://downloads.sourceforge.net/qsynth/qsynth-1.0.3.tar.gz",
-          "sha256": "cf897e2aede811057736e9e4a20cb1cda48a84526e621231944c49b0009cba66"
+          "url":    "https://downloads.sourceforge.net/qsynth/qsynth-1.0.4.tar.gz",
+          "sha256": "9cfd3cfd5ce57f459549a3e1091806ab2febb0544a1f43897e29ef9f1eed6f0c"
         }
       ]
     }
