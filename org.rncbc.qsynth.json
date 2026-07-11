@@ -1,27 +1,19 @@
 {
   "app-id": "org.rncbc.qsynth",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.10",
+  "runtime-version": "6.11",
   "sdk": "org.kde.Sdk",
   "command": "qsynth",
   "finish-args": [
-    /* X11 + XShm access */
     "--share=ipc",
     "--socket=wayland",
     "--socket=fallback-x11",
-    /* Note playback */
     "--socket=pulseaudio",
-    /* MIDI */
-    "--device=all",
-    /* JACK */
+    "--device=dri",
     "--filesystem=xdg-run/pipewire-0",
-    /* Allow loading, saving files from anywhere (portals don’t work yet) */
     "--filesystem=home",
-    /* Allow other instances to see lockfiles */
     "--env=TMPDIR=/var/tmp",
-    /* On SuSE it seems to be necessary for sound to work */
     "--env=ALSA_CONFIG_PATH=",
-    /* Allow KDE Plasma tray icon to work */
     "--talk-name=org.kde.StatusNotifierWatcher"
   ],
   "cleanup": [
